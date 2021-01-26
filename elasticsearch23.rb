@@ -11,7 +11,7 @@ class Elasticsearch23 < Formula
   end
 
   bottle :unneeded
-  depends_on :java => "1.7+"
+  depends_on "openjdk@8"
 
   conflicts_with "elasticsearch", :because => "Different versions of same formula"
 
