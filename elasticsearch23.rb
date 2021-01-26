@@ -6,7 +6,7 @@ class Elasticsearch23 < Formula
 
   head do
     url "https://github.com/elasticsearch/elasticsearch.git"
-    depends_on :java => "1.8"
+    depends_on "openjdk@8"
     depends_on "gradle" => :build
   end
 
